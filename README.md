@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+And created by Lalit kumar thakur (reachkumarlalit@gmail.com) as NeoFi Assignment.
+
+It uses npm 9.5.6
+node v20
+
+
 ## Available Scripts
 
 In the project directory, you can run:
