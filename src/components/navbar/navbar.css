@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #0B0819 !important;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    text-decoration: none;
+}
+
+
+  /* Small screens */
+@media only screen and (max-width: 600px) {
+    /* Hide the navbar links */
+    .navbar-links {
+      display: none;
+    }
+    /* Show the hamburger button */
+    .hamburger-button {
+      display: block;
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 601px) {
+    /* Show the navbar links */
+    .navbar-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* Hide the hamburger button */
+    .hamburger-button {
+      display: none;
+    }
+  }
+  
+  
