@@ -19,16 +19,16 @@ function Navbar() {
 				{/* Add the "Menu" component in your JSX code to display the hamburger button. */}
 				<ul className="nav-links">
 					<li>
-						<a href="https.google.com">Home</a>
+						<a href="https.google.com" className="nav-links-elements">Trade</a>
 					</li>
 					<li>
-						<a href="https.google.com">About</a>
+						<a href="https.google.com" className="nav-links-elements">Earn</a>
 					</li>
 					<li>
-						<a href="https.google.com">Services</a>
+						<a href="https.google.com" className="nav-links-elements">Support</a>
 					</li>
 					<li>
-						<a href="https.google.com">Contact</a>
+						<a href="https.google.com" className="nav-links-elements">About</a>
 					</li>
 				</ul>
 				<button className="connect-wallet-btn">Connect Wallet</button>

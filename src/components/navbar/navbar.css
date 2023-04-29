@@ -12,9 +12,32 @@
 }
 
 .nav-links li {
-    text-decoration: none;
+    margin-right: 2rem;
+    list-style-type: none;
 }
 
+.nav-links-elements {
+    border-bottom: 1rem blue;
+    color: blue !important;
+}
+
+.nav-links-elements {
+    color: #5A5A5A !important;
+    text-decoration: none !important;
+}
+
+.nav-links-elements:hover {
+    color: blue;
+}
+
+
+.connect-wallet-btn {
+    background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+border-radius: 30px;
+color: white;
+border: none;
+padding: 0.5rem 1rem;
+}
 
   /* Small screens */
 @media only screen and (max-width: 600px) {
