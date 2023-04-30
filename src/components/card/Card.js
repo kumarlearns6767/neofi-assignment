@@ -11,6 +11,46 @@ function Card() {
                     <img src={cryptologo} alt="logo" className="brand_logo"/>
                 </div>
             </div>
+            <div className="card-content">
+                <div className="currenct-selector">
+                    <div className="current-value">
+                        <span>
+                            Current Value
+                        </span>
+                        <span>
+                            ₹ 25000
+                        </span>
+                    </div>
+                    <div className="cryptoCurrency">
+                        <select name="cars" id="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="amount-invest-container">
+                    <div className="amount-invest">
+                        <h6>
+                            Amount you want to invest
+                        </h6>
+                    </div>
+                    <div className="cryptoCurrency">
+                        <input placeholder="0.0" />
+                    </div>
+                </div>
+                <div className="amount-invest-container">
+                    <div className="amount-invest">
+                        <h6>
+                            Amount you want to invest
+                        </h6>
+                    </div>
+                    <div className="cryptoCurrency">
+                        <input placeholder="0.0" />
+                    </div>
+                </div>
+            </div>
         </main>		
 	);
 }
