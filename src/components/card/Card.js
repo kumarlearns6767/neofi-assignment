@@ -6,7 +6,7 @@ import cryptologo from "../../assets/logo/cryptoLogo.png"
 function Card() {
 	return (
 		<main className="main-container">
-            <div className="card border-gradient border-gradient-purple">
+            <div className="card">
                 <div className="dp-container">
                     <img src={cryptologo} alt="logo" className="brand_logo"/>
                 </div>
