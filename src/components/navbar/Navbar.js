@@ -2,6 +2,7 @@
 // import React, { useState } from "react"; // importing usestate
 import "./navbar.css";
 import neofilogo from "../../assets/logo/neofiLogo.png"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 	// const [isOpen, setIsOpen] = useState(false); // Create a new state variable in your component to store the open/close state of the mobile menu.
@@ -19,16 +20,16 @@ function Navbar() {
 				{/* Add the "Menu" component in your JSX code to display the hamburger button. */}
 				<ul className="nav-links">
 					<li>
-						<a href="https.google.com" className="nav-links-elements">Trade</a>
+						<Link to="https://google.com" className="nav-links-elements">Trade</Link>
 					</li>
 					<li>
-						<a href="https.google.com" className="nav-links-elements">Earn</a>
+          <Link to="https://google.com" className="nav-links-elements">Earn</Link>
 					</li>
 					<li>
-						<a href="https.google.com" className="nav-links-elements">Support</a>
+          <Link to="https://google.com" className="nav-links-elements">Support</Link>
 					</li>
 					<li>
-						<a href="https.google.com" className="nav-links-elements">About</a>
+          <Link to="https://google.com" className="nav-links-elements">About</Link>
 					</li>
 				</ul>
 				<button className="connect-wallet-btn">Connect Wallet</button>

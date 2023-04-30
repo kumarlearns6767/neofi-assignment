@@ -1,0 +1,43 @@
+.main-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* height: 100%; */
+}
+
+.card {
+    box-sizing: border-box;
+    position: absolute;
+    height: 22rem;
+    max-width: 20rem;
+    left: 37rem;
+    right: 0rem;
+    top: 12.8rem;
+    background: #0B0819;
+    border-radius: 18px !important;
+    border: 1px solid #46425E;
+    /* border-image-slice: 1; */
+    /* border-width: 1px;
+    border-image-source: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dp-container {
+    position: absolute;
+    top: -15px;
+    border-radius: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #46425E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand_logo {
+    height: 45px;
+    width: 45px;
+}
