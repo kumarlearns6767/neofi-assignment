@@ -1,6 +1,5 @@
 import "./card.css";
 import cryptologo from "../../assets/logo/cryptoLogo.png"
-// import neofilogo from "../../assets/logo/neofiLogo.png"
 // import { Link } from 'react-router-dom';
 
 function Card() {
